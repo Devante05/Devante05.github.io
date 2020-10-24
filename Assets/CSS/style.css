@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background-color:#CCCCCC;
+}
+
+main {
+
+  margin-left: 15px;
+  margin-right: 15px;
+
+}
+
+h1{
+
+  padding-top: 10px;
+  padding-left: 10px;
+  color: #14A098;
+}
+
+.navBar ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.bodyImage{
+  width: 100%;
+  border: #CB2D6F solid 2px;
+
+}
+
+.navBar ul li {
+  list-style-type: none;
+  padding: 0.75rem;
+  border:#CB2D6F solid 3px;
+  background-color: #14A098;
+  ;
+}
+
+li:hover {
+  color: black;
+}
+
+.header {
+  background-color: black;
+}
+
+.navBar {
+  background-color: black;
+}
+
+.about-me {
+  background-color:#CCCCCC;
+  width: 80%;
+}
+
+.aboutContent {
+  background-color:#CCCCCC;
+  display: flex;
+}
+
+.formBox {
+  background-color:#CCCCCC;
+}
+
+.formContainer {
+  background-color:#CCCCCC;
+}
+
+.my-projects {
+  background-color:#CCCCCC;
+  width: 80%;
+}
+
+.projectContent {
+  background-color:#CCCCCC;
+  display: flex;
+  flex-flow: column wrap;
+  height: 250px;
+  width: 80%;
+}
+
+.resume-link {
+  background-color:#CCCCCC;
+}
+
+p {
+  font-size: 1.25rem;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.projectContent > p {
+  font-size: 1.25rem;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  width: 40%;
+  height: 40%;
+}
+
+.row {
+  display: flex;
+}
+
+
+.contact ul  {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  background-color: #CB2D6F ;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+  .contact ul li {
+    font-weight: bolder;
+  }
+
+
+@media screen and (max-width: 768px) {
+  .row {
+    display: inherit;
+  }
+  .helloMeme {
+    display: none;
+  }
+  .resume-link {
+    background-color: #14A098;
+  }
+  .contact {
+    background-color: #14A098;
+  }
+  .projectContent p {
+    width: 100%;
+  }
+  .contact  {
+    display: flex;
+    justify-content: space-between;
+  }
+  .formContainer {
+    justify-content: center;
+  }
+  h1,
+  h2,
+  h3 {
+    background-color: #14A098;
+    text-align: center;
+    color: black;
+  }
+  .aboutContent {
+    display: block;
+  }
+  .navBar ul {
+    justify-content: space-evenly;
+  }
+  .header {
+    background-color: cornsilk;
+  }
+  .header {
+    background-color: cornsilk;
+  }
+}
