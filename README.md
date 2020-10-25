@@ -5,7 +5,7 @@
 
 ## Langauges Used
 HTML 
-CSS/BOOTSTRAP
+CSS
 
 
 ## Contributing
