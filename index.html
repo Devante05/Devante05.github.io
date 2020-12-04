@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>Devante's Portfolio</title>
-    <link rel="stylesheet" href="./Assets/CSS/style.css">
+    <link rel="stylesheet" href="./Assets/CSS/style.css" />
   </head>
 
   <body>
@@ -32,64 +32,92 @@
       </nav>
     </header>
 
-
     <!-- <img class="bodyImage" a src= https://etimg.etb2bimg.com/photo/73028149.cms alt= "Cool background"></img> -->
- 
-    
+
     <!-- <img class="helloMeme" a src=hellomeme.jpg alt="Hello world meme" style="width: 600px; height: 400px" /> -->
 
     <main>
-      <div class="row">
-        <article class="about-me">
-          <a name="about-me"></a>
-          <h2>About Me</h2>
+      <div class="row margin margin-top">
+        <div class="col-9">
+          <article class="about-me">
+            <a name="about-me"></a>
+            <h2>About Me</h2>
 
-          <p>
-            Hello I am a Fullstack developer from Austin Texas! Intrested in Javascript, Python, node.js as well as SQL.
-          </p>
-          <img class = "proPic" a src = "./Assets/images/proPic.jpg" alt = "Picture of Devante"></img>
+            <div class="clearfix">
+              <p>
+                Hello I am a Fullstack developer from Austin Texas! Intrested in
+                Javascript, Python, node.js as well as SQL.
+              </p>
+              <img
+                class="proPic"
+                src="./Assets/images/proPic.jpg"
+                alt="Picture of Devante"
+              />
+            </div>
+          </article>
+        </div>
 
-
-        </article>
-
-        <aside class="formBox">
-          <h3>Enter email to chat with me!</h3>
-          <div class="formContainer">
-            <form>
-              <input type="text" placeholder="Email address" />
-              <button>Submit!</button>
-            </form>
-          </div>
-        </aside>
+        <div class="col-3">
+          <aside class="formBox">
+            <h3>Enter email to chat with me!</h3>
+            <div class="formContainer">
+              <form>
+                <input type="text" placeholder="Email address" />
+                <button>Submit!</button>
+              </form>
+            </div>
+          </aside>
+        </div>
       </div>
 
       <section>
         <a name="my-projects"></a>
         <h2>Projects</h2>
 
-        <p>
-      Quarantini is a web apllication that I, and small team of developers 
-      created in order to remedy the problem of most Americans inability to safely attend a bar to have a drink.
-      Quarintini uses 3rd party apis to allow the user to enter in any drink name and recieved a list of ingredients and
-      instructions on how to make the selected beverage. The application uses Javascript, Jquery and incoporates Bulma CSS framework.
+        <div class="row">
+          <div class="col-12">
+            <div class="row">
+              <div class="col-6">
+                <p>
+                  Quarantini is a web apllication that I, and small team of
+                  developers created in order to remedy the problem of most
+                  Americans inability to safely attend a bar to have a drink.
+                  Quarintini uses 3rd party apis to allow the user to enter in
+                  any drink name and recieved a list of ingredients and
+                  instructions on how to make the selected beverage. The
+                  application uses Javascript, Jquery and incoporates Bulma CSS
+                  framework.
+                </p>
+              </div>
+              
+              <img
+                class="col-6"
+                src="Assets/images/Qurantini.png"
+                alt="Quarantini portfolio project"
+              />
+            
+          </div>
 
-      
-        </p>
-        <div class = "project1Div">
-        <img class = "project1" a src = "Assets/images/Qurantini.png" alt = "Quarantini portfolio project"></img>
-      </div>
-        <p>
-          Mattis vulputate enim nulla aliquet porttitor lacus luctus accumsan
-          tortor. Auctor eu augue ut lectus. Diam phasellus vestibulum lorem sed
-          risus. Nec feugiat nisl pretium fusce id velit ut tortor. Vestibulum
-          mattis ullamcorper velit sed. Diam maecenas sed enim ut. Proin
-          fermentum leo vel orci porta non pulvinar neque laoreet. Sit amet
-          venenatis urna cursus eget nunc scelerisque viverra mauris.
-        </p>
-
-        <img class = "project2" a src = " ./Assets/images/weatherDashboard.png"></img>
+          <div class="col-12">
+            <div class="row">
+              <img class="col-6" src="./Assets/images/weatherDashboard.png" />
+              <div class="col-6">
+                <p>
+                  Mattis vulputate enim nulla aliquet porttitor lacus luctus
+                  accumsan tortor. Auctor eu augue ut lectus. Diam phasellus
+                  vestibulum lorem sed risus. Nec feugiat nisl pretium fusce id
+                  velit ut tortor. Vestibulum mattis ullamcorper velit sed. Diam
+                  maecenas sed enim ut. Proin fermentum leo vel orci porta non
+                  pulvinar neque laoreet. Sit amet venenatis urna cursus eget
+                  nunc scelerisque viverra mauris.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
+
     <a name="contact"></a>
 
     <footer class="contact">
@@ -98,7 +126,9 @@
 
         <li>Cell: 512-739-1534</li>
 
-        <li >www.linkedin.com/in/devanté-williams-73b69b11a></li>
+        <li>
+          <a href="http://www.linkedin.com/in/devanté-williams-73b69b11a">LinkedIn</a>
+        </li>
       </ul>
     </footer>
   </body>
