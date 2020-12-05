@@ -26,6 +26,10 @@ h1 {
 h2 {
   padding: 10px;
 }
+h3 {
+  padding: 10px;
+
+}
 
 .navBar ul {
   display: flex;
@@ -100,6 +104,9 @@ section {
 }
 .col-3 {
   width: 25%;
+}
+.proLink {
+  padding-left: 10px;
 }
 
 p {
