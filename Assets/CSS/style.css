@@ -161,44 +161,23 @@ p {
   justify-content: flex-end;
 }
 
-@media screen and (max-width: 768px) {
-  /* .row {
-    display: inherit;
-  } */
-  .helloMeme {
-    display: none;
-  }
-  /* .resume-link {
-  } */
-  /* .contact {
-    background-color: #14A098;
-  } */
-  .projectContent p {
-    width: 100%;
-  }
-  .contact {
-    display: flex;
-    justify-content: space-between;
-  }
-  .formContainer {
-    justify-content: center;
-  }
-  h1,
-  h2,
-  h3 {
-    text-align: center;
-    color: black;
-  }
-  .aboutContent {
-    display: block;
-  }
-  .navBar ul {
-    justify-content: space-evenly;
-  }
-  .header {
-    background-color: cornsilk;
-  }
-  .header {
-    background-color: cornsilk;
-  }
+/* @media screen and (max-width: 768px) 
+
+h1 {
+  text-align: center;
 }
+
+.navBar ul {
+  display: flex;
+  justify-content: center;
+
+}
+
+.about-me {
+  width: 100%;
+}
+
+aside {
+  flex-wrap: wrap;
+  width: 100%;
+} */
