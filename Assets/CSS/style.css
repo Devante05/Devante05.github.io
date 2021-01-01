@@ -4,9 +4,9 @@
   font-family: sans-serif;
 }
 
-body {
+/* body {
   background: url("../images/web-background.jpg");
-}
+} */
 
 main {
   margin-left: 30px;
@@ -191,6 +191,28 @@ p {
 footer {
   width: 100%;
 }
+
+/* body {
+  background-color: #333;
+  text-align:center;
+} */
+/* 
+h1 {
+  color:white;
+  font-family:"Raleway";
+  margin:2rem;
+} */
+
+
+/* .my-element {
+  display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: bounce; 
+  animation-duration: 2s; 
+} */
+
+
 
 /* @media screen and (max-width: 768px) 
 

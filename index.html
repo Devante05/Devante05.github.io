@@ -6,28 +6,33 @@
     <link rel="stylesheet" href="style.css" />
     <title>Devante's Portfolio</title>
     <link rel="stylesheet" href="./Assets/CSS/style.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    
   </head>
 
-  <body>
+  <body class = "animate__animated animate__shakeX" >
     <header class="header">
-      <h1>Devante's Fullstack Portfolio</h1>
+      <h1 class = "animate__animated animate__bounce">Devante's Fullstack Portfolio</h1>
       <nav class="navBar">
         <ul>
           
-            <li>
+            <li class = "animate__animated animate__bounce" >
               <a href="#about-me">About Me</a>
             </li>
             
-            <li>
+            <li class = "animate__animated animate__bounce">
               <a href="#my-projects">My Projects</a>
             </li>
 
-            <li>
+            <li class = "animate__animated animate__bounce">
                <a href="#contact">Contact Me</a>
               </button>
             </li>
 
-            <li>
+            <li class = "animate__animated animate__bounce">
                <a href="#contact">Resume</a>
             </li>
         </ul>
@@ -51,7 +56,7 @@
                 Javascript, Python, Nodejs as well as mySQL.
               </p>
               <img
-                class="proPic"
+                class="proPic animate__animated animate__rotateIn"
                 src="./Assets/Images/proPic.jpg"
                 alt="Picture of Devante"
               />
@@ -61,7 +66,7 @@
 
         <div class="col-3">
           <aside class="formBox">
-            <h3>Enter email to chat with me!</h3>
+            <h3 class = "animate__animated animate__bounce">Enter email to chat with me!</h3>
             <div class="formContainer">
               <form>
                 <input type="text" placeholder="Email address" />
@@ -100,7 +105,7 @@
               </div>
               
               <img
-                class="col-6"
+                class="col-6" 
                 src="Assets/Images/Qurantini.png"
                 alt="Quarantini portfolio project"
               />
@@ -172,5 +177,7 @@
         </li>
       </ul>
     </footer>
+
+    <script src = "script.js"></script>
   </body>
 </html>
