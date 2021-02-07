@@ -1,199 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Devante's Portfolio</title>
-    <link rel="stylesheet" href="./Assets/CSS/style.css" />
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
-    
-  </head>
 
-  <body class = "animate__animated animate__shakeX" >
-    <header class="header">
-      <h1 class = "animate__animated animate__bounce">Devante's Fullstack Portfolio</h1>
-      <nav class="navBar">
-        <ul>
-          
-            <li class = "animate__animated animate__bounce" >
-              <a href="#about-me">About Me</a>
-            </li>
-            
-            <li class = "animate__animated animate__bounce">
-              <a href="#my-projects">My Projects</a>
-            </li>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Devante's Portfolio</title>
+  <link rel="stylesheet" href="./Assets/CSS/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
-            <li class = "animate__animated animate__bounce">
-               <a href="#contact">Contact Me</a>
-              </button>
-            </li>
 
-            <li class = "animate__animated animate__bounce">
-               <a href="#contact">Resume</a>
-            </li>
-        </ul>
-      </nav>
-    </header>
 
-    <!-- <img class="bodyImage" a src= https://etimg.etb2bimg.com/photo/73028149.cms alt= "Cool background"></img> -->
+</head>
 
-    <!-- <img class="helloMeme" a src=hellomeme.jpg alt="Hello world meme" style="width: 600px; height: 400px" /> -->
+<body>
+  <header class="row">
+    <h1 class="col s9">Devante's Fullstack Portfolio</h1>
 
-    <main>
-      <div class="row margin margin-top">
-        <div class="col-9">
-          <article class="about-me">
-            <a name="about-me"></a>
-            <h2>About Me</h2>
 
-            <div class="clearfix">
-              <p>
-                Hello, I am a Fullstack developer from Austin Texas! I want to specialize in
-                Javascript, Python, Nodejs as well as mySQL.
-              </p>
-              <img
-                class="proPic animate__animated animate__rotateIn"
-                src="./Assets/Images/proPic.jpg"
-                alt="Picture of Devante"
-              />
-            </div>
-          </article>
+
+
+    <ul class="navBar col s3 navLinks">
+
+      <li>
+        <a href="#about-me">About Me</a>
+      </li>
+
+      <li>
+        <a href="#my-projects">My Projects</a>
+      </li>
+
+      <li>
+        <a href="#contact">Contact Me</a>
+        </button>
+      </li>
+
+      <li>
+        <a href="#contact">Resume</a>
+      </li>
+    </ul>
+
+  </header>
+
+  <!-- <img class="bodyImage" a src= https://etimg.etb2bimg.com/photo/73028149.cms alt= "Cool background"></img> -->
+
+  <!-- <img class="helloMeme" a src=hellomeme.jpg alt="Hello world meme" style="width: 600px; height: 400px" /> -->
+
+  <main>
+    <div class="row">
+      <div class="col s9">
+        <!-- <article class="about-me"> -->
+        <a name="about-me"></a>
+        <h2>About Me</h2>
+
+        <div class="clearfix">
+          <p>
+            Hello, I am a Fullstack developer from Austin Texas! I want to specialize in
+            Javascript, Python, Nodejs as well as mySQL.
+          </p>
+          <img class="proPic " src="./Assets/Images/proPic.jpg" alt="Picture of Devante" />
         </div>
-
-        <div class="col-3">
-          <aside class="formBox">
-            <h3 class = "animate__animated animate__bounce">Enter email to chat with me!</h3>
-            <div class="formContainer">
-              <form>
-                <input type="text" placeholder="Email address" />
-                <button>Submit!</button>
-              </form>
-            </div>
-          </aside>
-        </div>
+        <!-- </article> -->
       </div>
 
-      <section>
-        <a name="my-projects"></a>
-        <h2>Projects</h2>
-
-        <div class="row">
-          <div class="col-12">
-            <div class="row">
-              <div class="col-6">
-                <h3>Quarantini</h3>
-                <a class="proLink" href="https://rylawesome.github.io/Quarantini/">Link to Live Site</a>
-                <br>
-                <a class="proLink" href="https://github.com/rylawesome/Quarantini">Link to Repository</a>
-
-
-                
-                <p>
-                  Quarantini is a web apllication that I, and small team of
-                  developers created in order to remedy the problem of most
-                  Americans inability to safely attend a bar to have a drink.
-                  Quarintini uses 3rd party apis to allow the user to enter in
-                  any drink name and recieved a list of ingredients and
-                  instructions on how to make the selected beverage. The
-                  application uses Javascript, Jquery and incorporates Bulma CSS
-                  framework.
-                </p>
-              </div>
-              
-              <img
-                class="col-6" 
-                src="Assets/Images/Qurantini.png"
-                alt="Quarantini portfolio project"
-              />
-            
+      <div class="col s3">
+        <aside class="formBox">
+          <h3>Enter email to chat with me!</h3>
+          <div class="formContainer">
+            <form>
+              <input type="text" placeholder="Email address" />
+              <button>Submit!</button>
+            </form>
           </div>
+        </aside>
+      </div>
+    </div>
 
-          <div class="col-12">
-            <div class="row">
-              <img class="col-6" src="./Assets/Images/weatherDashboard.png" alt="Weather dashboard"/>
-              <div class="col-6">
-                <h3>Weather Dashboard</h3>
-                <a class="proLink" href="https://devante05.github.io/weatherDashboard/">Link to Live Site</a>
-                <br>
-                <a class="proLink" href="https://github.com/Devante05/weatherDashboard">Link to Repository</a>
-                <p>
-                  Weather Dashboard is a weather app I created to give real time weather data as well 
-                  as a five day forcast for any city in the world! This application uses multiple 3rd party APIs
-                  to retrieve data about temperatures, wind speed, UV index, humidity as well as an illustation 
-                  describing the current weather. This web application was created using Javascript and Jquery.  
-                  Bootstrap was used for styling.
-                </p>
-              </div>
-            </div>
-          </div>
+    <section>
+      <a name="my-projects"></a>
+      <h2>Projects</h2>
+
+      <div class="row">
+        <div class="col s6">
+          <h3>Quarantini</h3>
+          <a class="proLink" href="https://rylawesome.github.io/Quarantini/">Link to Live Site</a>
+          <br>
+          <a class="proLink" href="https://github.com/rylawesome/Quarantini">Link to Repository</a>
+
+
+
+          <p>
+            Quarantini is a web apllication that I, and small team of
+            developers created in order to remedy the problem of most
+            Americans inability to safely attend a bar to have a drink.
+            Quarintini uses 3rd party apis to allow the user to enter in
+            any drink name and recieved a list of ingredients and
+            instructions on how to make the selected beverage. The
+            application uses Javascript, Jquery and incorporates Bulma CSS
+            framework.
+          </p>
         </div>
-        <div class="row">
-          <div class="col-12">
+
+        <img class="col s6" src="Assets/Images/Qurantini.png" alt="Quarantini portfolio project" />
+
+      </div>
+
+      <div class="row">
+
+        <img class="col s6" src="./Assets/Images/weatherDashboard.png" alt="Weather dashboard" />
+        <div class="col s6">
+          <h3>Weather Dashboard</h3>
+          <a class="proLink" href="https://devante05.github.io/weatherDashboard/">Link to Live Site</a>
+          <br>
+          <a class="proLink" href="https://github.com/Devante05/weatherDashboard">Link to Repository</a>
+          <p>
+            Weather Dashboard is a weather app I created to give real time weather data as well
+            as a five day forcast for any city in the world! This application uses multiple 3rd party APIs
+            to retrieve data about temperatures, wind speed, UV index, humidity as well as an illustation
+            describing the current weather. This web application was created using Javascript and Jquery.
+            Bootstrap was used for styling.
+          </p>
+        </div>
+
+      </div>
+
+      <div class="row">
+
+            <div class="col s6">
+              <h3>README Generator</h3>
+
+              <a class="proLink" href="https://github.com/Devante05/README-Generator">Link to Repository</a>
+
+
+
+              <p>
+                This project is a command line application that I built using Nodejs and Javascript. The README
+                Generator automates the README creation
+                process which allows the user more time to work on functionality!
+              </p>
+            </div>
+
+            <img class="col s6" class="col-6" src="Assets/Images/ReadME.png" alt="ReadMe Generator" />
+
+      </div>
+
+
+
+
+
             <div class="row">
-              <div class="col-6">
-                <h3>README Generator</h3>
-                
-                <a class="proLink" href="https://github.com/Devante05/README-Generator">Link to Repository</a>
-
-
-                
-                <p>
-                  This project is a command line application that I built using Nodejs and Javascript. The README Generator automates the README creation
-                  process which allows the user more time to work on functionality! 
-                </p>
-              </div>
-              
-              <img
-                class="col-6"
-                src="Assets/Images/ReadME.png"
-                alt="ReadMe Generator"
-              />
-            
-          </div>
-
-          <div class="col-12">
-            <div class="row">
-              <img class="col-6" src="./Assets/Images/teamProGen.png" alt="Team Profile Generator"/>
-              <div class="col-6">
+              <img class="col s6" src="./Assets/Images/teamProGen.png" alt="Team Profile Generator" />
+              <div class="col s6">
                 <h3>Team Profile Generator</h3>
                 <a class="proLink" href="https://github.com/Devante05/TeamProfile-Generator">Link to Repository</a>
                 <p>
-                  Team Profile Generator is a CLI that will collect answers from the user reguarding employee information,
+                  Team Profile Generator is a CLI that will collect answers from the user reguarding employee
+                  information,
                   then it will generate an html page displaying all employees entered.
                 </p>
               </div>
             </div>
-          </div>
-        </div>
- 
-      </section>
-    </main>
+         
 
-    <a name="contact"></a>
 
-    <footer class="contact">
-      <ul>
-        <li>
-          <a href="./Assets/images/MyResume.docx" download>
-            <img src="/Assets/ages/download.png" alt="Resume" >
-          </a>
-        </li>
+    </section>
+  </main>
 
-        <li>
-          <a href = "https://github.com/Devante05">GitHub</a>
+  <a name="contact"></a>
 
-        </li>
+  <footer class="contact">
+    <ul>
+      <li>
+        <a href="./Assets/images/MyResume.docx" download>
+          <img src="/Assets/ages/download.png" alt="Resume">
+        </a>
+      </li>
 
-        <li>
-          <a href="https://www.linkedin.com/in/devanté-williams-73b69b11a">LinkedIn</a>
-        </li>
-      </ul>
-    </footer>
+      <li>
+        <a href="https://github.com/Devante05">GitHub</a>
 
-    <script src = "script.js"></script>
-  </body>
+      </li>
+
+      <li>
+        <a href="https://www.linkedin.com/in/devanté-williams-73b69b11a">LinkedIn</a>
+      </li>
+    </ul>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <script src="script.js"></script>
+</body>
+
 </html>
