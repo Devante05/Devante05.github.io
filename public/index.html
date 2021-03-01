@@ -41,9 +41,7 @@
 
   </header>
 
-  <!-- <img class="bodyImage" a src= https://etimg.etb2bimg.com/photo/73028149.cms alt= "Cool background"></img> -->
 
-  <!-- <img class="helloMeme" a src=hellomeme.jpg alt="Hello world meme" style="width: 600px; height: 400px" /> -->
 
   <main>
     <div class="row">
@@ -63,11 +61,13 @@
 
       <div class="col s3">
         <aside class="formBox">
-          <h3>Enter email to chat with me!</h3>
           <div class="formContainer">
-            <form>
-              <input type="text" placeholder="Email address" />
-              <button>Submit!</button>
+            <form action="/submit" method="post">
+              <h3>Chat with me!</h3>
+              <input type="text" class="form-control" name="name" placeholder="Name" autofocus>
+              <input type="text" class="form-control" name="email" placeholder="Email" autofocus>
+              <input type="text" class="form-control" name="message" placeholder="Message" autofocus>
+              <button class="btn btn-lg btn-primary btn-block" id="submit" type="submit">Submit</button>
             </form>
           </div>
         </aside>
