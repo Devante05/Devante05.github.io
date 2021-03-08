@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: rgb(183, 182, 206);
 }
@@ -5,7 +9,6 @@ body {
 main {
   margin-left: 30px;
   margin-right: 30px;
-  padding-top: 102px;
 }
 
 .margin-top {
@@ -67,8 +70,14 @@ li {
   width: 100%;
 }
 
+.input-field input:focus + label {
+  color: red !important;
+}
 
-
+ .input-field input:focus {
+  border-bottom: 1px solid red !important;
+  box-shadow: 0 1px 0 0 red !important
+}
 
 .col-12 {
   width: 100%;
@@ -98,11 +107,14 @@ p {
   margin-bottom: 15px;
 }
 
+.contact {
+  width: 100%;
+}
+
 .contact ul {
   display: flex;
   justify-content: space-between;
   list-style-type: none;
-  background-color: #5d5c61;
   color: black;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -114,6 +126,12 @@ p {
 
 .contact ul li {
   font-weight: bolder;
+
+}
+
+.bold {
+  font-weight: bolder;
+
 
 }
 
